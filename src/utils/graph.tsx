@@ -5,7 +5,7 @@ export function createCheckpoint(coordinate: Coordinate): Checkpoint {
 
     return {
         coordinate,
-        id: `${coordinate.x}${coordinate.y}`,
+        id: `${coordinate.x}/${coordinate.y}`,
         isStart: false,
         isVisited: false,
         neighbors,
